@@ -1,14 +1,22 @@
-p {
-  font-family: sans-serif;
-  color: red;
-}
-
-li {
-  background-color: greenyellow;
-  border: 1px solid black;
-  margin-bottom: 5px;
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: bisque;
 }
 h1 {
-  text-align: center;
-  color: blue;
+    color: cornflowerblue;
+    text-align: center;
+}
+#intro {
+    text-align: center;
+    padding: 50px;
+}#small-heading {
+    color: aquamarine;
+}
+
+#link {
+    color: cadetblue;
+}
+
+.items {
+    list-style: circle;
 }
