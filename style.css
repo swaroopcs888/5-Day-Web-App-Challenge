@@ -2,15 +2,35 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: bisque;
 }
+
 h1 {
     color: cornflowerblue;
     text-align: center;
 }
+
 #intro {
     text-align: center;
-    padding: 50px;
-}#small-heading {
-    color: aquamarine;
+    padding: 50px; /* inside */
+    margin: 20px; /* outside */
+}
+#small-heading {
+    color: darkcyan;
+}
+p {
+    font-size: 18px;            
+    color: darkslategray;
+}
+img {
+    width: 300px;
+    height: auto;       
+    border: 5px solid darkgray;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(138, 7, 7, 0.3);
+}
+
+.accent {
+    color: crimson;
+    font-weight: bold;
 }
 
 #link {
